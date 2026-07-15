@@ -1,82 +1,107 @@
-🎬 Movie Ticket Booking System (C++)
+# 🎬 Movie Ticket Booking System
 
-A console-based Movie Ticket Booking System developed in C++ that allows users to register, log in, book movie tickets, select seats, view booking history, and enables administrators to manage movies and bookings.
+A console-based **Movie Ticket Booking System** built using **C++**. This project allows users to register, log in, book movie tickets, select seats, and view booking history. It also provides an admin panel to manage movies and bookings.
 
-📌 Features
-👤 User Features
-User Registration and Login
-View Available Movies
-Choose Movie Timings
-Select Seats
-Book Movie Tickets
-View Booking History
-Automatic Ticket Cost Calculation
-Booking Confirmation Receipt
-👨‍💼 Admin Features
-Secure Admin Login
-Add New Movies
-Remove Existing Movies
-View All User Bookings
-🛠️ Technologies Used
-Language: C++
-Concepts: Object-Oriented Programming (OOP)
-Data Structures: Vector, Map
-Standard Libraries: STL (vector, map, algorithm, iomanip)
-Compiler: GCC / g++
-📂 Project Structure
+---
+
+## ✨ Features
+
+### 👤 User
+- Register and Login
+- View available movies
+- Select movie timings
+- Choose seats
+- Book tickets
+- View booking history
+- Booking confirmation receipt
+
+### 👨‍💼 Admin
+- Admin login
+- Add new movies
+- Remove movies
+- View all user bookings
+
+---
+
+## 🛠️ Technologies Used
+
+- C++
+- Object-Oriented Programming (OOP)
+- STL (Vector, Map, Algorithm)
+- Console Application
+
+---
+
+## 📂 Project Structure
+
+```
 Movie-Ticket-Booking-System/
-│
-├── main.cpp
-└── README.md
-🚀 How to Run
-Clone the repository
-git clone https://github.com/your-username/Movie-Ticket-Booking-System.git
-Open the project in your preferred C++ IDE or VS Code.
-Compile the program
+│── main.cpp
+│── README.md
+```
+
+---
+
+## 🚀 Getting Started
+
+### Clone the repository
+
+```bash
+git clone https://github.com/YOUR-USERNAME/Movie-Ticket-Booking-System.git
+```
+
+### Compile
+
+```bash
 g++ main.cpp -o movie_booking
-Run the executable
+```
+
+### Run
+
+**Windows**
+```bash
+movie_booking.exe
+```
+
+**Linux / macOS**
+```bash
 ./movie_booking
-🎥 Preloaded Movies
+```
 
-The system comes with three predefined movies:
+---
 
-Inception
-The Dark Knight
-Interstellar
+## 🎥 Preloaded Movies
 
-Each movie contains:
+- Inception
+- The Dark Knight
+- Interstellar
 
-Multiple show timings
-Ticket price
-Seat availability
-📖 Concepts Implemented
-Structures (struct)
-Functions
-Vectors
-Maps
-User Authentication
-Seat Management
-Booking History
-Admin Panel
-STL Algorithms
-Input Validation
-💡 Future Improvements
-Store data using files or a database
-Password encryption
-Movie search functionality
-Cancel booked tickets
-Payment gateway integration
-Graphical User Interface (GUI)
-📷 Output
+Each movie includes:
+- Multiple show timings
+- Ticket pricing
+- Seat availability
 
-The application runs in the terminal and provides an interactive menu-driven interface for users and administrators.
+---
 
-👩‍💻 Author
+## 📚 Concepts Used
 
-Sapna
+- Structures
+- Functions
+- Vectors
+- Maps
+- Object-Oriented Programming
+- Input Validation
+- Seat Management
 
-B.Tech Computer Science Engineering
+---
 
-⭐ If you like this project
 
-Give this repository a ⭐ on GitHub if you found it useful or interesting.
+## 👩‍💻 Author
+
+**Sapna**
+
+B.Tech CSE
+
+---
+
+⭐ If you found this project useful, don't forget to star the repository!
